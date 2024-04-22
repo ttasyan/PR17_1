@@ -1,0 +1,25 @@
+﻿<Page x:Class="PR17.AddData"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PR17"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="400"
+      Title="AddData">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="84,29,0,0" TextWrapping="Wrap" Text="Название самолета" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="air_name_box" HorizontalAlignment="Left" Height="23" Margin="209,29,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="84,57,0,0" TextWrapping="Wrap" Text="Дата производства" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Date_box" HorizontalAlignment="Left" Height="23" Margin="209,59,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="84,87,0,0" TextWrapping="Wrap" Text="Вместимость" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="capacity_box" HorizontalAlignment="Left" Height="23" Margin="209,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.95,0.342"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="84,115,0,0" TextWrapping="Wrap" Text="ТО" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="to_box" HorizontalAlignment="Left" Height="23" Margin="209,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="84,143,0,0" TextWrapping="Wrap" Text="Часы налетов" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="hours_box" HorizontalAlignment="Left" Height="23" Margin="209,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="AddData_btn" Content="AddData" HorizontalAlignment="Left" Margin="120,264,0,0" VerticalAlignment="Top" Width="150" Height="80" Click="AddData_btn_Click"/>
+
+    </Grid>
+</Page>
